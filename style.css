@@ -1,0 +1,49 @@
+body { 
+       background-color:white;
+}
+input[type=text]{
+	 width:23%;
+	 margin-bottom:5px;
+	 outline-style:solid;
+	 outline-width:1px;
+	 outline-color:FF00FF;
+	 font-family:sans;
+	 height:6%;
+	 font-size:16;
+}
+input[type=password] {
+	width:23%;
+	height:6%;
+	font-family:sans;
+	margin-bottom:3px;
+	outline-style:solid;
+	outline-width:1px;
+	outline-color:FF00FF;
+	font-size:16;
+}
+input[type=button] {
+	width:23%;
+	height:6%;
+	background-color:blue;
+	color:white;
+	font-weight:bold;
+	border-radius:5px;
+	border-color:blue;
+	transition: all 0.5s ease 0s;
+	opacity:1;
+	font-size:16;
+}	
+
+input[type=button]:hover {
+	opacity:0.70;
+}
+
+div{
+	display:block;
+	text-align:center;
+	padding-top:1cm;
+}
+img{
+	padding-left:11.5cm;
+	padding-top:4cm;
+}	
